@@ -1,0 +1,152 @@
+.global__dashboard {
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+    padding: 9px;
+    gap: 5px;
+    align-items: stretch;
+  }
+  
+  
+  .dashbord {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 9px;
+  }
+  
+  .dashboard__section {
+    display: flex;
+    flex-direction: column;
+    padding: 6px;
+    gap: 10px;
+  }
+  
+  .__blue {
+    border-radius: 8px;
+    background: linear-gradient(139deg, #55a3d5 1.74%, #6ab4c3 60.94%);
+  }
+  
+  .__violet {
+    border-radius: 8px;
+    background: linear-gradient(
+      139deg,
+      #8f60c2 1.74%,
+      #a258c8 52.6%,
+      #ae54cd 94.79%
+    );
+  }
+  
+  .__orange {
+    border-radius: 8px;
+    background: linear-gradient(
+      139deg,
+      #eba342 1.74%,
+      #e8b54a 47.92%,
+      #e8bc47 94.79%
+    );
+  }
+  
+  .dashboard__text {
+    color: rgb(250, 247, 247);
+    word-wrap: break-word;
+    font-size: small;
+  }
+  
+  .dashobard__amount {
+    color: white;
+    font-weight: 500;
+    font-size: small;
+  }
+  
+  /* styling the dashboard white */
+  
+  .dashbord__white {
+    background-color: #fff;
+    margin: 4px 6px 0 6px;
+    border-radius: 10px;
+  }
+  
+  .dashbord__white {
+    padding: 21px 9px 23px 9px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 10px;
+    align-items: baseline;
+  }
+  
+  .photo__ {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 9px;
+  }
+  
+  .text__dashboard {
+    font-size: 12px;
+    font-weight: 600;
+    color: #000;
+  }
+  
+  /* styling the header top  */
+  .header__dashbord {
+    border-radius: 0px 0px 19px 19px;
+    background-color: #55a3d5;
+  }
+  
+  .header__top {
+    padding-top: 20px;
+    padding-left: 40px;
+  }
+  
+  .user__ {
+    color: #fff;
+    font-size: medium;
+  }
+  
+  .header__bottom {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding:10px 15px 15px;
+    align-items: center;
+  }
+  .header__bottom > div > span {
+    font-size: smaller;
+    color: white;
+  }
+  
+  .vip {
+    background-color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    text-align: center;
+    font-size: smaller;
+  }
+  
+  .vip__background {
+    padding: 10px;
+    background-color: #000c7a;
+    color: white;
+  }
+  .group_vip {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .header__bottom > div {
+  
+      display: flex;
+       flex-direction: column;
+       gap:5px
+  }
+  
+  .vip__number { 
+      padding: 8px;
+  }
+  .vip__date { 
+      display: flex;
+      flex-direction: column;
+  }
+  

@@ -1,0 +1,12 @@
+.app__tasks {
+  display: flex;
+  padding: 20px;
+  flex-direction: column;
+  gap: 12px;
+  overflow-y: scroll;
+  margin-bottom : 30px;
+}
+
+.app__tasks > div {
+  border: 1px solid #000;
+}

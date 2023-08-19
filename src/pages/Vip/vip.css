@@ -1,0 +1,36 @@
+.app__vip {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding: 20px;
+  margin-bottom: 40px;
+}
+
+.app__vip > div {
+  width: 100%;
+  height: 200px;
+}
+
+
+.vip__1 { 
+
+background: linear-gradient(135deg, #D7D7D7 0%, #F3F3F3 47.53%, #B9B9B9 100%);
+}
+
+.vip__2 { 
+  background: linear-gradient(135deg, #DAC294 0%, #F0DEBC 47.53%, #BC9B5C 100%);
+
+}
+
+.vip__3 {
+  background: linear-gradient(135deg, #8EA0FF 0%, #01A 100%);
+}
+
+.vip__4 { 
+  background: linear-gradient(135deg, #DAC294 0%, #F0DEBC 47.53%, #BC9B5C 100%);
+
+}
+
+.vip__5  { 
+
+  background: linear-gradient(180deg, #484848 0%, #1E1E1E 100%);}
